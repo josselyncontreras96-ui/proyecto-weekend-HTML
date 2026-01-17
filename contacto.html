@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Herencia Café</title>
+  <title>Contacto | Herencia Café</title>
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -24,15 +24,54 @@
   </nav>
 
   <main>
-    <h2>Origen de Familia</h2>
+    <h2>Contacto</h2>
 
-    <p>
-      Herencia Café es un café de origen familiar, cultivado en la finca La Herencia,
-      ubicada en El Rosario, La Labor, Ocotepeque, Honduras.
-      Cada grano es producido con dedicación y tradición cafetalera, ofreciendo
-      un café de alta calidad que conserva el sabor auténtico y la herencia de
-      generaciones dedicadas al cultivo del café.
-    </p>
+    <section class="Formulario-contacto">
+      <h2>Envianos un mensaje</h2>
+
+      <form action="#" method="post">
+
+        <div>
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" required>
+        </div>
+
+        <div>
+            <label for="correo">Correo Electrónico:</label><br>
+            <input type="email" id="correo" name="correo" required>
+        </div>
+
+        <div>
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+        </div>
+        <div>
+            <button type="submit">Enviar</button>
+        </div>
+
+      </form>
+    </section>
+
+<section class="mapa">
+    <h2>Nuestra Ubicación</h2>
+    
+      <p>Nos encontramos en El Rosario, La Labor, Ocotepeque, Honduras.</p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3862.644993283001!2d-89.04509202542872!3d14.505057779409725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f6397da3bfc882b%3A0x2660de5f6216fa3b!2sEl%20Rosario%20La%20Labor%20Ocotepeque!5e0!3m2!1ses-419!2ses!4v1768677335769!5m2!1ses-419!2ses" width="600" height="450" style="border: 0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</section>
+
+<section class="datos de contacto">
+    <h2>Información de Contacto</h2>
+
+    <address>
+        <p><strong>Herencia cafe</strong></p>
+        <p>Dirección: El Rosario, La Labor, Ocotepeque, Honduras</p>
+        <p>Teléfono: +504 1234-5678</p>
+        <p>Correo Electrónico:
+            <a href="mailto:flaherencia@gmail.com">flaherencia@gmail.com</a>
+        </p>
+    </address>
+</section>   
   </main>
 
   <footer>
